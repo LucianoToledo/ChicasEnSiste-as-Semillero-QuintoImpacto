@@ -1,0 +1,20 @@
+.container{
+    margin-left: 82px;
+}
+.title{
+    font-size: 35px;
+    font-family: var(--font-roboto-medium);
+    color: var(--dark-slate);
+}
+.subtitle{
+    font-size: 25px;
+    font-family: var(--font-roboto-medium);
+    color: var(--dark-slate);
+    margin-top: 10px;
+}
+.video{
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 15px;
+    /*margin-bottom: 159px;*/
+}

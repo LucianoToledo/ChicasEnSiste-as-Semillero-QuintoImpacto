@@ -1,0 +1,10 @@
+export const ENV = {
+    MODE: import.meta.env.VITE_MODE,
+    BACKEND_URL: import.meta.env.VITE_BACKEND_URL,
+    GOOGLE_URL_BACKEND: import.meta.env.VITE_GOOGLE_URL_BACKEND,
+    GOOGLE_CLIENT_ID: import.meta.env.VITE_GOOGLE_CLIENT_ID,
+
+    EMAILJS_YOUR_SERVICE_ID: import.meta.env.VITE_EMAILJS_YOUR_SERVICE_ID,
+    EMAILJS_YOUR_TEMPLATE_ID: import.meta.env.VITE_EMAILJS_YOUR_TEMPLATE_ID,
+    EMAILJS_YOUR_PUBLIC_KEY: import.meta.env.VITE_EMAILJS_YOUR_PUBLIC_KEY,
+}

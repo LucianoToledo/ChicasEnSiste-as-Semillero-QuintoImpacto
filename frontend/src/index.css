@@ -1,0 +1,105 @@
+@import url("./fonts/stylesheet.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form-control {
+    @apply w-full h-11 text-dark-steal text-xl border border-[#ced4da] appearance-none outline-none indent-[10px] rounded-md transition-shadow ease-in-out placeholder:text-dark-steal placeholder:opacity-60 focus:text-[#212529] focus:bg-white focus:border-[#86b7fe] focus:outline focus:shadow-[0_0_0_0.5rem_rgba(176,165,240,0.25)] ;
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /*Estilos estándar experimentales (Principalmente Firefox)*/
+  scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0);
+  scrollbar-width: thin;
+  /* border: solid 1px red; */
+}
+
+:root {
+  --primary: #4b4696;
+  --secondary: #e94b7b;
+  --orange: #f29a2b;
+  --yellow: #f9c943;
+  --dark-slate: #494697;
+
+  --font-roboto-regular: "Roboto-regular";
+  --font-roboto-medium: "Roboto-medium";
+  --font-roboto-bold: "Roboto-bold";
+}
+
+
+
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+*::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+*::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-button:increment,
+*::-webkit-scrollbar-button {
+  display: none;
+}
+
+*::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.mb-10p {
+  margin-bottom: 10px;
+}
+
+.mb-15p {
+  margin-bottom: 15px;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mt-1 {
+  margin-top: 0.25rem !important;
+}
+
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.mt-15p {
+  margin-top: 15px;
+}

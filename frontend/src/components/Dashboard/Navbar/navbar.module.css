@@ -1,0 +1,12 @@
+.logo {
+    grid-column: 11 / 13;
+    grid-row: 1;
+    margin-top: auto;
+    /* padding-right: 50%; */
+    z-index: 1;
+}
+
+.logo a img {
+    max-width: 100%;
+    height: auto;
+}

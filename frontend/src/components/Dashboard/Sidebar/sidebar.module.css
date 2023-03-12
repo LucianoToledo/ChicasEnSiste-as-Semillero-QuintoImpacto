@@ -1,0 +1,46 @@
+.sidebarHeader {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.menu > ul {
+    display: flex;
+    flex-direction: column;
+    list-style:none;
+    font-family: var(--font-roboto-regular);
+    font-size: 39px;
+    margin-top: 4rem;
+}
+
+.menu > ul li {
+    height: 79px;
+    margin-bottom: 1.5rem;
+}
+
+.menu > ul li a {
+    padding-left: 2rem;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    height: 100%;
+    padding: 1rem;
+}
+
+.active {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.btnLogout {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-left: 2rem;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    height: 100%;
+    padding: 1rem;
+    font-family: var(--font-roboto-regular);
+    font-size: 39px;
+}

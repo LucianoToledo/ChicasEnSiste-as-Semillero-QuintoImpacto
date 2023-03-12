@@ -1,0 +1,19 @@
+.footer-section{
+    max-width: 1623px;
+    width: 100%;
+    height: 256px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+.logo-sm-footer{
+    transform: translateY(-35px);
+}
+
+.social-icons-footer{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;     
+}
